@@ -1,0 +1,612 @@
+
+
+
+
+.botao-carrinho {
+
+    border: none;
+
+    background-color: var(--rosa);
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    margin-left: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.botao-carrinho:hover {
+
+    transform: scale(1.08);
+
+    background-color: var(--coral);
+
+}
+
+
+
+/* =========================================
+   BANNER
+========================================= */
+
+.banner-presentes {
+    background-color: var(--rosa);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.banner-presentes::after {
+    content: "🌷";
+    position: absolute;
+    right: 8%;
+    bottom: -30px;
+    font-size: 220px;
+    opacity: 0.15;
+}
+
+
+.banner-conteudo {
+    max-width: 600px;
+    padding: 70px 0;
+}
+
+
+.subtitulo {
+
+    color: var(--verde-salvia);
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.banner-conteudo h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 60px;
+
+    line-height: 1.05;
+
+    color: var(--verde-escuro);
+
+}
+
+
+.banner-conteudo h1 span {
+
+    color: var(--verde-salvia);
+
+}
+
+
+.banner-conteudo p:not(.subtitulo) {
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    max-width: 520px;
+
+    margin: 25px 0;
+
+}
+
+
+
+/* =========================================
+   BOTÃO PRINCIPAL
+========================================= */
+
+.botao-principal {
+
+    display: inline-block;
+
+    background-color: var(--coral);
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 28px;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+.botao-principal:hover {
+
+    background-color: var(--verde-salvia);
+
+    color: white;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* =========================================
+   OCASIÕES
+========================================= */
+
+.ocasioes {
+
+    background-color: var(--fundo);
+
+    padding: 90px 0;
+
+}
+
+
+.titulo-secao {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+.titulo-secao h2 {
+
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+}
+
+
+.titulo-secao h2 span {
+
+    color: var(--verde-salvia);
+
+}
+
+
+.card-ocasiao {
+
+    background-color: var(--branco);
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    height: 100%;
+
+    border: 1px solid rgba(121, 157, 110, 0.12);
+
+    transition: 0.3s;
+
+}
+
+
+.card-ocasiao:hover {
+
+    transform: translateY(-7px);
+
+    background-color: var(--creme);
+
+}
+
+
+.icone {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card-ocasiao h3 {
+
+    font-size: 20px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.card-ocasiao p {
+
+    font-size: 14px;
+
+    color: #687064;
+
+}
+
+
+
+/* =========================================
+   PRODUTOS
+========================================= */
+
+.produtos {
+
+    background-color: var(--creme);
+
+    padding: 90px 0;
+
+}
+
+
+.titulo-produtos {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    margin-bottom: 40px;
+
+}
+
+
+.titulo-produtos h2 {
+
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+}
+
+
+.titulo-produtos h2 span {
+
+    color: var(--verde-salvia);
+
+}
+
+
+.filtro {
+
+    padding: 10px 18px;
+
+    border: 1px solid var(--verde-salvia);
+
+    border-radius: 25px;
+
+    background-color: white;
+
+    color: var(--verde-escuro);
+
+}
+
+
+
+/* =========================================
+   CARD DE PRODUTO
+========================================= */
+
+.card-produto {
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    height: 100%;
+
+    box-shadow: 0 5px 20px rgba(63, 74, 60, 0.08);
+
+    transition: 0.3s;
+
+}
+
+
+.card-produto:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 12px 30px rgba(63, 74, 60, 0.14);
+
+}
+
+
+.imagem-produto {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--fundo);
+}
+
+.imagem-produto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.card-produto:hover .imagem-produto img {
+    transform: scale(1.05);
+}
+
+.etiqueta {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: var(--verde-salvia);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.etiqueta.rosa {
+    background-color: var(--coral);
+}
+
+
+.etiqueta.amarela {
+    background-color: #D9B93D;
+}
+
+
+.favorito {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 22px;
+    color: var(--coral);
+    cursor: pointer;
+}
+
+
+.info-produto {
+
+    padding: 25px;
+
+}
+
+
+.categoria {
+
+    color: var(--verde-salvia);
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+
+}
+
+
+.info-produto h3 {
+
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+
+    margin: 8px 0;
+
+}
+
+
+.descricao {
+
+    color: #70776d;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    min-height: 45px;
+
+}
+
+
+.produto-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.produto-final strong {
+    color: var(--verde-escuro);
+    font-size: 18px;
+}
+
+
+.botao-comprar {
+    border: none;
+    background-color: var(--verde-salvia);
+    color: white;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.botao-comprar:hover {
+    background-color: var(--coral);
+}
+
+
+
+/* =========================================
+   CARD PERSONALIZADO
+========================================= */
+
+.card-personalizado {
+    background-color: var(--lima);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+
+}
+
+
+.personalizado-conteudo {
+    padding: 30px;
+}
+
+
+.personalizado-conteudo > span {
+    font-size: 60px;
+}
+
+
+.personalizado-conteudo h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+
+.personalizado-conteudo p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.botao-personalizar {
+    display: inline-block;
+    background-color: var(--verde-salvia);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+.botao-personalizar:hover {
+    background-color: var(--coral);
+    color: white;
+}
+
+
+
+/* =========================================
+   CARTÃO INTELIGENTE
+========================================= */
+
+.cartao {
+    background-color: var(--rosa);
+    padding: 90px 0;
+
+}
+
+
+.cartao h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+
+}
+
+
+.cartao h2 span {
+    color: var(--verde-salvia);
+}
+
+
+.cartao p:not(.subtitulo) {
+    line-height: 1.7;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+
+.cartao-mensagem {
+    background-color: var(--creme);
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 var(--verde-salvia);
+}
+
+
+.cartao-mensagem p {
+    color: var(--verde-salvia);
+    font-size: 14px;
+}
+
+
+.cartao-mensagem h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+
+.cartao-mensagem span {
+    color: #70776d;
+}
+
+
+
+/* =========================================
+   RESPONSIVIDADE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .banner-conteudo h1 {
+        font-size: 42px;
+    }
+
+    .titulo-secao h2,
+    .titulo-produtos h2,
+    .cartao h2 {
+        font-size: 32px;
+    }
+
+    .titulo-produtos {
+        display: block;
+    }
+
+    .filtro {
+        margin-top: 20px;
+    }
+
+    .banner-presentes::after {
+        font-size: 120px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}

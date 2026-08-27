@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JasminBlanc</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <style>
+        /* CORES DO SITE */
+        :root {
+            --creme: #FFFBE0;
+            --fundo: #FFFDF5;
+            --verde-salvia: #799D6E;
+            --verde-escuro: #3F4A3C;
+            --rosa: #F8C8DC;
+            --coral: #EC8C8C;
+            --lima: #F6FF97;
+        }
+
+
+        /* HEADER */
+        header {
+            background-color: var(--creme);
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--verde-escuro);
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: var(--coral);
+        }
+
+        .nav-link.active {
+            color: var(--verde-salvia);
+            font-weight: bold;
+        }
+
+
+        /* MAIN */
+        main {
+            background-color: var(--fundo);
+            min-height: 500px;
+            padding: 50px 30px;
+            color: var(--verde-escuro);
+        }
+
+        main h1 {
+            color: var(--verde-salvia);
+        }
+
+
+        /* TABELA */
+        .table {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .table thead {
+            background-color: var(--rosa);
+        }
+
+        .table th {
+            color: var(--verde-escuro);
+        }
+
+
+        /* FOOTER */
+        footer {
+            background-color: var(--verde-salvia);
+            min-height: 150px;
+            padding: 40px 30px;
+            color: white;
+            text-align: center;
+        }
+
+        footer h1 {
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <nav class="nav container">
+
+            <a class="nav-link active" aria-current="page" href="#">
+                Início
+            </a>
+
+            <a class="nav-link" href="#">
+                Clientes
+            </a>
+
+            <a class="nav-link" href="#">
+                Produtos
+            </a>
+
+            <a class="nav-link" href="#">
+                Contato
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <div class="container">
+
+            <h1>JasminBlanc 🌷</h1>
+
+            <p>
+                Flores que transformam sentimentos em momentos especiais.
+            </p>
+
+
+            <table class="table table-bordered mt-4">
+
+                <thead>
+
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Produto</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Categoria</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <th scope="row">1</th>
+
+                        <td>
+                            <img src="..." class="img-thumbnail" alt="Buquê">
+                        </td>
+
+                        <td>
+                            Buquê Encanto
+                        </td>
+
+                        <td>
+                            Buquês
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th scope="row">2</th>
+
+                        <td>
+                            <img src="..." class="img-thumbnail" alt="Arranjo">
+                        </td>
+
+                        <td>
+                            Jardim de Sonhos
+                        </td>
+
+                        <td>
+                            Arranjos
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <th scope="row">3</th>
+
+                        <td>
+                            <img src="..." class="img-thumbnail" alt="Cesta">
+                        </td>
+
+                        <td>
+                            Amor Perfeito
+                        </td>
+
+                        <td>
+                            Cestas
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h1>JasminBlanc 🌸</h1>
+
+        <p>
+            Flores que falam por você.
+        </p>
+
+        <p>
+            © 2026 JasminBlanc - Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
