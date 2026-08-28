@@ -377,57 +377,37 @@ hr {
 
 footer {
     min-height: 85px;
-
-    background-color: #ffffff;
-
+    background-color: #7f9660;
     border-top: 1px solid #e5e5e5;
-
     padding: 12px 25px;
-
     font-family: Arial, sans-serif;
 }
 
 footer small {
     font-size: 9px;
-
     color: #555;
 }
 
-
-/* CONTATOS */
-
 .contatos {
     text-align: left;
-
     font-size: 12px;
 }
 
 .contatos p {
     margin: 2px 0;
-
     color: #444;
 }
 
-
-/* =========================
-   RESPONSIVIDADE
-========================= */
-
 @media (max-width: 992px) {
-
     header {
         height: auto;
-
         padding: 10px 20px;
-
         flex-wrap: wrap;
     }
 
     .nav {
         width: 100%;
-
         justify-content: center;
-
         margin-top: 5px;
     }
 
@@ -478,4 +458,19 @@ footer small {
         margin-top: 10px;
     }
 
+}
+
+.btn-lg {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btn-lg:hover {
+    background-color: #0000004c;
+    color: #ffffff;
+}
+
+.table-btn{
+    background-color: #d6d1aa;
 }
