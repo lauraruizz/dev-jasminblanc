@@ -12,7 +12,7 @@
     --lima: #F6FF97;
     --branco: #FFFFFF;
 }
-
+    
 /* =========================================
    CONFIGURAÇÕES GERAIS
 ========================================= */
@@ -148,14 +148,4 @@ footer hr {
 .footer-cnpj small,
 .footer-copy small {
     opacity: 0.8;
-}
-
-footer hr {
-    opacity: 0.25;
-}
-
-
-.copyright {
-    font-size: 12px;
-    margin-top: 20px;
 }
