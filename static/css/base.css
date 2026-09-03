@@ -1,0 +1,119 @@
+/* =========================================
+   CORES DA JASMINBLANC
+========================================= */
+
+:root {
+    --creme: #FFFBE0;
+    --fundo: #FFFDF5;
+    --verde-salvia: #799D6E;
+    --verde-escuro: #3F4A3C;
+    --rosa: #F8C8DC;
+    --coral: #EC8C8C;
+    --lima: #F6FF97;
+    --branco: #FFFFFF;
+}
+
+/* =========================================
+   CONFIGURAÇÕES GERAIS
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f5f1d8;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-brand img {
+    display: block;
+}
+
+.navbar-nav {
+    gap: 8px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--verde-escuro);
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--verde-salvia);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--verde-salvia);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background-color: var(--verde-salvia);
+    color: white;
+    text-align: center;
+    padding: 55px 0 25px;
+}
+
+
+footer h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+
+footer h2 span {
+    color: var(--creme);
+}
+
+
+footer p {
+    opacity: 0.9;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+
+.footer-links a {
+    color: white;
+    transition: 0.3s;
+}
+
+
+.footer-links a:hover {
+    color: var(--lima);
+}
+
+footer hr {
+    opacity: 0.25;
+}
+
+
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+}

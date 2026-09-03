@@ -1,7 +1,4 @@
-/* =========================
-   CONFIGURAÇÕES GERAIS
-========================= */
-
+ 
 * {
     box-sizing: border-box;
 }
@@ -13,10 +10,6 @@ body {
     color: #222;
 }
 
-
-/* =========================
-   HEADER
-========================= */
 
 header {
     height: 70px;
@@ -33,8 +26,6 @@ header {
 }
 
 
-/* LOGO */
-
 .logo img {
     width: 95px;
     height: 80px;
@@ -42,8 +33,6 @@ header {
     object-fit: contain;
 }
 
-
-/* ÍCONES */
 
 .header-icons {
     display: flex;
@@ -60,8 +49,6 @@ header {
     cursor: pointer;
 }
 
-
-/* MENU */
 
 .nav {
     margin-left: auto;
@@ -86,11 +73,6 @@ header {
     color: #c88989;
 }
 
-
-/* =========================
-   MAIN
-========================= */
-
 main {
     min-height: 650px;
 
@@ -99,10 +81,6 @@ main {
     padding: 40px 30px;
 }
 
-
-/* =========================
-   IMAGEM
-========================= */
 
 .imagem-area {
     display: flex;
@@ -127,16 +105,11 @@ main {
 }
 
 
-/* =========================
-   INFORMAÇÕES DO PRODUTO
-========================= */
 
 .produto-info {
     padding: 0 25px;
 }
 
-
-/* TÍTULO */
 
 .titulo {
     text-align: center;
@@ -161,8 +134,6 @@ main {
 }
 
 
-/* LINHAS */
-
 hr {
     border: 0;
 
@@ -171,8 +142,6 @@ hr {
     opacity: 0.8;
 }
 
-
-/* PREÇO */
 
 .preco {
     text-align: center;
@@ -187,9 +156,6 @@ hr {
 
     margin-bottom: 2px;
 }
-
-
-/* AVALIAÇÃO */
 
 .avaliacao span {
     color: #f1c40f;
@@ -208,9 +174,6 @@ hr {
 }
 
 
-/* =========================
-   BOTÕES
-========================= */
 
 .botoes {
     display: flex;
@@ -239,8 +202,6 @@ hr {
 }
 
 
-/* COMPRAR */
-
 .comprar {
     background-color: #e99a9a;
 
@@ -251,8 +212,6 @@ hr {
     background-color: #d98282;
 }
 
-
-/* CARRINHO */
 
 .carrinho {
     background-color: #fffdf3;
@@ -265,9 +224,6 @@ hr {
 }
 
 
-/* =========================
-   DESCRIÇÃO
-========================= */
 
 .descricao {
     margin-top: 25px;
@@ -296,16 +252,11 @@ hr {
 }
 
 
-/* =========================
-   LATERAL
-========================= */
 
 .lateral {
     padding: 0 15px;
 }
 
-
-/* QUADRO VERDE */
 
 .verde {
     background-color: #d8e8cf;
@@ -338,8 +289,6 @@ hr {
 }
 
 
-/* QUADRO ROSA */
-
 .rosa {
     background-color: #fde8ef;
 
@@ -371,10 +320,6 @@ hr {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
-
 footer {
     min-height: 85px;
     background-color: #7f9660;
@@ -388,6 +333,10 @@ footer small {
     color: #555;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 647c81920dc796b325a9ecc32309c897d07bac1d
 .contatos {
     text-align: left;
     font-size: 12px;
@@ -398,6 +347,10 @@ footer small {
     color: #444;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 647c81920dc796b325a9ecc32309c897d07bac1d
 @media (max-width: 992px) {
     header {
         height: auto;
