@@ -414,10 +414,45 @@ footer small {
 }
 
 .btn-lg:hover {
-    background-color: #0000004c;
-    color: #ffffff;
+    background-color: #ff000061;
+    color: #9b0303;
 }
 
 .table-btn{
     background-color: #d6d1aa;
+}
+
+.forma-pagamento{
+    border: #f3e7a1 2px solid;
+    background-color: #f3e7a1;
+
+}
+.total{
+    color: #db0101;
+    font-weight: bold;
+}
+.pagamento{
+    color: #000;
+    font-weight: bold;
+}
+
+.produtos{
+    color: #5b5b5b;
+}
+
+.tabela-pg{
+    border: #f3e7a1 2px solid;
+    background-color: #f3e7a1;
+
+}
+
+.btn-outline-secondary{
+    color: #000;
+    font-size: 25px;
+
+}
+
+.botao{
+    border: #616161 2px solid;
+    background-color: #d7d7d7;
 }
